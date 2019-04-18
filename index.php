@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>开始使用layui</title>
-    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/layui.css">
+
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 <a href="http://www.layui.com" class="layui-btn layui-btn-normal">一个可跳转的按钮</a>
 
 
-<script src="../layui/layui.js"></script>
+<script src="/layui.js"></script>
 <script>
     //一般直接写在一个js文件中
     layui.use(['layer', 'form'], function(){
